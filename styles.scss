@@ -8,6 +8,23 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Poppins';
+
+  button{
+    background-color: #08506D;
+    font-size: 1em;
+    border: none;
+    border-radius: 50%;
+    margin: 2em;
+    padding: 30px 15px;
+    a{
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      padding: 10px 10px;
+
+    }
+  }
 }
 
 .container {
@@ -32,7 +49,7 @@ section {
 
   h1{
     color: #fefefe;
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 

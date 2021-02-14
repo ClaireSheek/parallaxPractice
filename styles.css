@@ -15,6 +15,27 @@ body {
   font-family: 'Poppins';
 }
 
+body button {
+  background-color: #08506D;
+  font-size: 1em;
+  border: none;
+  border-radius: 50%;
+  margin: 2em;
+  padding: 30px 15px;
+}
+
+body button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+}
+
 .container {
   text-align: center;
   min-height: 100%;
@@ -39,7 +60,7 @@ section {
 
 section h1 {
   color: #fefefe;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 svg {
