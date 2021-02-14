@@ -5,14 +5,12 @@ color: #08506D;
 
 body {
   background-color: #88C7D0;
-  // height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: 'Poppins';
 }
 
 .container {
-  // padding-top: 4em;
   text-align: center;
   min-height: 100%;
   h1 {
@@ -40,7 +38,6 @@ section {
 
 svg{
   padding-top: 4em;
-  // position: absolute;
   bottom: 0px;
   left: 0;
   z-index: -1;
