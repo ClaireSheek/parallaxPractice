@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #88C7D0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  font-family: 'Poppins';
+}
+
+.container {
+  padding: 4em 0;
+  text-align: center;
+  height: 100vh;
+}
+
+.container h1 {
+  font-size: 5em;
+}
+
+.container p {
+  font-size: 1.3em;
+}
+
+section {
+  margin-top: 5em;
+  padding: 8em 0;
+  background-color: #3d9963;
+  text-align: center;
+  height: 50vh;
+}
+
+section h1 {
+  color: #fefefe;
+}
+
+svg {
+  position: absolute;
+  top: 8em;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  overflow: visible;
+}
+
+.cloud1 {
+  -webkit-animation: cloud-drift 250s infinite linear;
+          animation: cloud-drift 250s infinite linear;
+}
+
+.cloud2 {
+  -webkit-animation: cloud-drift 300s infinite linear;
+          animation: cloud-drift 300s infinite linear;
+}
+
+.cloud3 {
+  -webkit-animation: cloud-drift 320s infinite linear;
+          animation: cloud-drift 320s infinite linear;
+}
+
+.cloud4 {
+  -webkit-animation: cloud-drift 260s infinite linear;
+          animation: cloud-drift 260s infinite linear;
+}
+
+@-webkit-keyframes cloud-drift {
+  from {
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+  to {
+    -webkit-transform: translatex(120vw);
+            transform: translatex(120vw);
+  }
+}
+
+@keyframes cloud-drift {
+  from {
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+  to {
+    -webkit-transform: translatex(120vw);
+            transform: translatex(120vw);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
